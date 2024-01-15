@@ -1,0 +1,16 @@
+.sku-prop-content {
+    display: flex;
+}
+
+.sku-variable-size {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.sku-variable-size.selected {
+    border: 2px solid #4f4cf0;
+}
